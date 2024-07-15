@@ -2,7 +2,7 @@
   "name": "@monoflow/dummy-1",
   "version": "0.0.0",
   "dependencies": {
-    "@monoflow/dummy-2": "workspace:*"
+    "@monoflow/dummy-2": "0.1.0"
   },
   "main": "./index.js",
   "module": "./index.mjs",
