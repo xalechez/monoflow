@@ -22,6 +22,11 @@
     }
   ],
   "targetDefaults": {
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/packages/{projectName}"
+      }
+    },
     "@nx/vite:build": {
       "cache": true,
       "dependsOn": ["^build"],
@@ -39,7 +44,11 @@
     },
     "version": {
       "preVersionCommand": "pnpm dlx nx run-many -t build",
-      "conventionalCommits": true
+      "generatorOptions": {
+        "specifierSource": "conventional-commits",
+        "currentVersionResolver": "git-tag",
+        "packageRoot": "dist/packages/{projectName}"
+      }
     }
   }
 }

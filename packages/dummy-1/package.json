@@ -2,10 +2,9 @@
   "name": "@monoflow/dummy-1",
   "version": "0.0.0",
   "dependencies": {
-    "@monoflow/dummy-2": "0.1.0"
+    "@monoflow/dummy-2": "workspace:*"
   },
   "main": "./index.js",
   "module": "./index.mjs",
-  "typings": "./index.d.ts",
-  "private": true
+  "typings": "./index.d.ts"
 }
