@@ -1,6 +1,6 @@
 {
   "name": "@monoflow/dummy-2",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "dependencies": {},
   "main": "./index.js",
   "module": "./index.mjs",
